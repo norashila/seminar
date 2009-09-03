@@ -1,0 +1,179 @@
+body {
+	background-color: #E7E7E7;
+}
+
+body, ul, td, p, font, div {
+	font-family: Century Gothic, Georgia , Book Antiqua, Garamond;
+	color: #000000;
+	font-size: 12px;
+}
+
+A:link, A:visited, A:active {
+	color: #E8497C;
+	text-decoration: none;
+	cursor: help;
+	font-style: oblique;
+}
+
+A:hover {
+	color: #F0789F;
+	font-style: oblique;
+	border-bottom: 1px solid #cfcfcf;
+	margin-bottom: 0px;
+}
+
+.facts {
+		color: #8BA81C;
+}
+
+.facts2 {
+		color: #E8497C;
+}
+
+/*NAV*/
+
+.nav:link, .nav:visited {
+	color: #000000;
+	font-family: TW Cen MT Condensed, Century Gothic;
+	font-size: 23pt;
+	font-style: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+	word-spacing: 0px;
+}
+
+.nav:hover, .nav:active {
+	color: #000000;
+	font-family: TW Cen MT Condensed, Century Gothic;
+	font-size: 23pt;
+	font-style: normal;
+	text-transform: uppercase;
+	border-bottom: dashed;
+}
+
+/*MENU1 and MENU2*/
+
+.menulink1:link, .menulink1:visited {
+	color: #E8497C;
+	font-size: 16pt;
+	font-style: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+	word-spacing: 0px;
+}
+
+.menulink1:hover, .menulink1:active {
+	font-size: 16pt;
+	font-style: normal;
+	text-transform: uppercase;
+	border-bottom: dashed;
+}
+
+.menulink2:link, .menulink2:visited {
+	color: #8BA81C;
+	font-size: 16pt;
+	font-style: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+	word-spacing: 0px;
+}
+
+.menulink2:hover, .menulink2:active {
+	font-size: 16pt;
+	font-style: normal;
+	text-transform: uppercase;
+	border-bottom: dashed;
+}
+
+/*CONTENT AND FOOTER*/
+
+.content {
+	text-align: justify;
+	width: 650px;
+	padding-top: 5px;
+	padding-left: 38px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+.footer {
+	background-image:  url(images/nav.jpg);
+	font-size: 12pt;
+	font-family: TW Cen MT Condensed, Century Gothic;
+	word-spacing: 3px;
+	letter-spacing: 0px;
+	text-align: center;
+	height: 69px;
+	width: 722px;
+}
+
+/*HEADERS AND FOOTNOTE*/
+
+h1 {
+	font-family: Garamond, Helvetica, Book Antiqua;
+	font-size: 30px;
+	color: #E8497C;
+	font-style: italic;
+	text-align: right;
+	text-transform: lowercase;
+	text-decoration: none;
+	background: url(images/title.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 35px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 100px;
+	padding-bottom: 0px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: #F0789F;
+	border-bottom: 1px solid #8BA81C;
+	padding-bottom: 5px;
+}
+
+.footnote {
+	font-size: 9px;
+}
+
+/*Blockquote*/
+
+blockquote { 
+	border-left: 7px solid #cfcfcf;
+	font-size: 12px;
+	color: #000000;
+	margin-left: auto;
+	padding: 3px;
+	text-align: left;
+	width: 495px;
+}
+   
+/*INPUT AND TEXTAREA*/
+
+input {
+	font-family: Century Gothic, Georgia , Book Antiqua, Garamond;
+	color: #b1b1b1;
+	font-size: 12px;
+	border: 1px dashed #cfcfcf;
+}
+
+.button {
+	background-color: #E8497C; 
+	border: 1px dashed #b1b1b1;  
+	color:#ffffff;
+}
+
+textarea {
+	font-family: Century Gothic, Georgia , Book Antiqua, Garamond;
+	text-indent: 0px;
+	color: #b1b1b1;
+	font-size: 12px;
+	padding: 5px;
+	border: 1px dashed #cfcfcf;
+	width: 300px;
+	height: 100px;
+}

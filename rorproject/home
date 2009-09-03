@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="Sweet Cravings? Cupcake Cure! View some easy-to-follow cupcake recipes in both written and slideshow instructions. Check out our health-related articles, calorie calculator, BMI calculator, test out your nutrition knowledge and many more!">
+<meta name="keywords" content="cupcakes, cure, nutrition, health, calories, calculator, bmi, Abbie, Dolores, sweet, sugar, recipes, dessert">
+<meta name="author" content="Abbie">
+
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="icon" href="favicon.ico" type="image/ico">
+<title>Cupcake Cure :: Cupcake recipes for everyone!</title>
+</head>
+
+<body>
+
+	<div align="center">
+
+		<img src="http://cupcakecure.info/Images/logo_icon.gif" alt="">
+ 		<img src="http://cupcakecure.info/Images/header.gif" alt=""></div>
+	
+<table id="Table_01" border="0" cellpadding="0" cellspacing="0" align="center">
+	<tr>
+		<td><object type="application/x-shockwave-flash" data="slideshow.swf?xml_source=header.xml" width="722" height="200">
+			<param name="movie" value="slideshow.swf?xml_source=header.xml">
+			</object>	
+		</td>
+	</tr>
+
+		
+	<tr>	
+		<td style="background: url(http://cupcakecure.info/Images/nav.jpg)" width="722" height="69" valign="middle" align="center">
+<!-- EDIT BELOW THIS LINE FOR THE NAVIGATION -->
+		
+<a class="nav" href="http://cupcakecure.info/home.php">HOME</a> | <a class="nav" href="http://cupcakecure.info/About/index.php">ABOUT</a> | <a class="nav" href="http://cupcakecure.info/Cupcakes/index.php">CUPCAKES</a> |  <a class="nav" href="http://cupcakecure.info/Recipes/index.php">RECIPES</a> | <a class="nav" href="http://cupcakecure.info/Nutrition/index.php">NUTRITION</a>
+
+<!-- EDIT ABOVE THIS LINE FOR THE NAVIGATION -->
+		</td>
+	</tr>
+	
+	<tr>
+		<td rowspan="1" colspan="2" valign="top" style="background-image:url(http://cupcakecure.info/Images/content.jpg)">
+<table>
+		<tr>
+		<td valign="top" class="content"> 
+<!--  Beginning of main area, start editing here!  -->
+
+			<h1>Introduction</h1>
+Everyone loves cupcakes! They're one of the sweetest pick-me-ups and delicious desserts out there. So whenever your craving something sweet, why not bake a cupcake! It's a fun activity, fulfilling, rewarding and definitely satisfying. What's more is that if you bake it yourself, you know all the ingredients that's going to be used and maybe even control the proportions. That's why Cupcake Cure offers easy-to-follow cupcake recipes that you can bake right in your kitchen. We're also aware that cupcakes aren't the healthiest option for a dessert but it is a luxury that we can reward ourselves with. For this reason, we make sure to post the nutritional information of the cupcake so you know exactly how to fit it into your daily calorie budget. We are also very health-conscious and we also want to promote a healthy lifestyle into our website. Feel free to read our health-related articles and use some tools like our calorie calculator to find out how many calories you need daily. So go ahead and view our recipes, available in written and slideshow instructions. After that maybe you'd like to check out our drool-worthy picture gallery and look at the many other things we offer! We hope you enjoy yourself and find this website very informative, entertaining as well as enjoyable. Just navigate the site through the links above and if you're having troubles with our links, view our <a href="sitemap.php">site map</a> instead. Let's start baking!
+
+<p><div align="right"><img src="Images/sig.gif" alt=""></div>
+
+     <p><h2></h2>
+	 <blockquote>Want to be informed when new recipes are posted? Join our mailing list! Input your email below to receive weekly updates.
+<form action="" method="post">
+<input name="email" size="30" type="text"> <br>
+<input name="action" value="subc" checked="checked" type="radio">Subscribe
+
+<input name="action" value="unsubc" type="radio">Unsubscribe<br>
+<input value="Submit" type="submit" class="button">
+</form>
+	</blockquote>
+	<p><h2></h2>
+			
+<p><center><a href="http://cupcakecure.info/Recipes/submit_recipe.php"><img src="Images/ad.jpg" alt="" border="0"></a></center>
+
+<!--  Stop editing here!  -->
+<p><div align="center">
+	<img src="http://cupcakecure.info/Images/footer1.jpg" usemap="#footer1" border="0" alt="">
+
+		<map name="footer1">
+
+		<area shape="rect" coords="60,24,22,10" href="javascript:history.back()" alt="">
+		<area shape="rect" coords="90,24,62,10" href="#" alt="">
+		<area shape="rect" coords="146,24,92,10" href="javascript:history.forward()" alt="">
+	</map></div>		
+</table>
+		</td>
+	</tr>
+		
+	<tr>
+		<td class="footer" valign="middle">
+
+<!--  Beginning of footer area, start editing here!  -->
+			
+<p>Cupcake Cure &#169; 2009 <a href="http://cupcakecure.info/About/contact.php">Abbie Dol</a> and <a href="http://cupcakecure.info/About/contact.php">Dolores Mallari</a>. All rights reserved.<br>
+Powered by: <a href="http://byethost.com">Byethost</a> | Valid <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fcupcakecure.info%2F">HTML</a> and <a href="http://jigsaw.w3.org/css-validator/check/referer
+">CSS</a>!<br>
+
+Having trouble navigating through our site? Try our <a href="http://cupcakecure.info/sitemap.php">Site Map</a>!
+
+<!--  Stop editing here!  --></td>
+	</tr>
+</table>
+
+</body>
+</html>

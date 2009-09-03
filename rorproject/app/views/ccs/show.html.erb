@@ -1,0 +1,24 @@
+<h1>Recipes</h1>
+			<h2>Recipes</h2>
+<p>
+  <b>Name:</b><%= @cc.name %>
+ </p>
+<p>
+  <b>Description:</b><%= @cc.description %>
+</p>
+<p>
+  <b>Ingredients:</b><%= @cc.ingredient %>
+</p>
+<p>
+  <b>Directions:</b><%= @cc.direction %>
+</p>
+<p>
+  <b>Email:</b><%= @cc.email %>
+</p>
+<p>
+  <b>Tagging:</b><%= @cc.tag %>
+</p>
+<p>
+  <img src="/kek/<%= @cc.img_file %>"/>
+</p>
+<a href="/ccs/<%= @cc.id %>/edit">Edit</a>

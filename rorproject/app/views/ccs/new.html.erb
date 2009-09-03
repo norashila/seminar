@@ -1,0 +1,11 @@
+<h1>New Recipes</h1> 
+<% form_for(@cc,:url=>{:action=>'create'}) do |f| %>
+  <p><b>Name</b><br /><%= f.text_field :name %></p>
+  <p><b>Description</b><br /><%= f.text_area :description %></p>
+  <p><b>Ingredients</b><br /><%= f.text_area :ingredient %>  </p>
+  <p><b>Direction</b><br /><%= f.text_area :direction %></p>
+   <p><b>Tagging</b><br /><%= f.text_field :tag %></p>
+   <p><b>Email</b><br /><%= f.text_field :email %></p>
+  <p><b>Img url</b><br /><%= f.text_field :img_file %></p>
+  <p><%= f.submit "Create" %></p>
+<% end %>

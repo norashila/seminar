@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Cupcake Cure :: Recipes</title>
+    <%= stylesheet_link_tag 'style.css' %>
+</head>
+<body>
+    <div id="wrapper">
+		<div id="header">
+			<div-->
+
+				<h1>Cupcakes</h1>
+				<ul id="nav">
+					<li><a href="/ccs/">List All Cupcakes Recipe</a></li>
+				
+				</ul>
+			</div>
+		</div>
+
+		<div id="content">
+			
+<span style="text-align: right">
+<% form_tag "/Ccs/find" do %>
+<%= text_field_tag :search_string %>
+<%= submit_tag "Search" %>
+<% end %>
+</span>
+
+	<div align="center">
+
+		<img src="/images/logo_icon.gif" alt="">
+ 		<img src="/images/header.gif" alt=""></div>
+	
+<table id="Table_01" border="0" cellpadding="0" cellspacing="0" align="center">
+	<tr>
+		<td><object type="application/x-shockwave-flash" data="slideshow.swf?xml_source=header.xml" width="722" height="200">
+			<param name="movie" value="slideshow.swf?xml_source=header.xml">
+			</object>	
+		</td>
+	</tr>
+
+		
+	<tr>	
+		<td style="background: url(/images/nav.jpg)" width="722" height="69" valign="middle" align="center">
+<!-- EDIT BELOW THIS LINE FOR THE NAVIGATION -->
+		
+<a class="nav" href="http://cupcakecure.info/home.php">HOME</a> | <a class="nav" href="http://cupcakecure.info/About/index.php">ABOUT</a> | <a class="nav" href="http://cupcakecure.info/Cupcakes/index.php">CUPCAKES</a> |  <a class="nav" href="http://cupcakecure.info/Recipes/index.php">RECIPES</a> | <a class="nav" href="http://cupcakecure.info/Nutrition/index.php">NUTRITION</a>
+
+<!-- EDIT ABOVE THIS LINE FOR THE NAVIGATION -->
+		</td>
+	</tr>
+	
+	<tr>
+		<td rowspan="1" colspan="2" valign="top" style="background-image:url(/images/content.jpg)">
+<table>
+		<tr>
+		<td valign="top" class="content"> 			
+		  <%= yield %>
+		<!--/div>
+		<div id="clearfooter"></div>
+    </div>
+	<div id="footer"></div-->
+<p><div align="center">
+	<img src="/images/footer1.jpg" usemap="#footer1" border="0" alt="">
+
+		<map name="footer1">
+		<area shape="rect" coords="60,24,22,10" href="javascript:history.back()" alt="">
+		<area shape="rect" coords="90,24,62,10" href="#" alt="">
+		<area shape="rect" coords="146,24,92,10" href="javascript:history.forward()" alt="">
+	</map></div>		
+</table>
+		</td>
+
+	</tr>
+		
+	<tr>
+		<td class="footer" valign="middle">
+<!--  Beginning of footer area, start editing here!  -->
+			
+<p>Cupcake Cure &#169; 2009 <a href="http://cupcakecure.info/About/contact.php">Abbie Dol</a> and <a href="http://cupcakecure.info/About/contact.php">Dolores Mallari</a>. All rights reserved.<br>
+
+Powered by: <a href="http://byethost.com">Byethost</a> | Valid <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fcupcakecure.info%2F">HTML</a> and <a href="http://jigsaw.w3.org/css-validator/check/referer
+">CSS</a>!<br>
+Having trouble navigating through our site? Try our <a href="http://cupcakecure.info/sitemap.php">Site Map</a>!
+
+<!--  Stop editing here!  --></td>
+	</tr>
+</table>		
+</body>
+</html>

@@ -1,0 +1,9 @@
+<h1>All Recipes</h1>
+<ul>
+<% for cc in @ccs %>
+  <li><a href="/ccs/<%= cc.id %>"><%= cc.name %></a>
+  [<a href="/ccs/<%= cc.id %>/delete">Delete</a>]</li>
+ <% end %>
+   [<a href="/ccs/<%= cc.id %>/New">New</a>]</li>
+
+</ul>

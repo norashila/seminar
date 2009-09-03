@@ -1,0 +1,10 @@
+<% for cc in @ccs %>
+<tr>
+<td><%=h cc.name %></td>
+<td><%=h cc.tag %></td>
+
+<td><a href="/ccs/<%=cc.id%>">Find</td>
+<td><a href="/ccs/<%=cc.id %>/edit">Edit</a></td>
+<td><a href="/ccs/<%=cc.id%>/delete">Delete</a></td>
+</tr>
+<% end %>
